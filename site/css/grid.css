@@ -1,15 +1,55 @@
 .container {
     width: 375px;
     height: 667px;
-    background-color: rgb(166, 224, 248);
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(15, 1fr);
+    grid-row-gap: 4px;
+    grid-column-gap: 4px; 
+    
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
 header {
     grid-column: 1 / 5;
     grid-row: 1 / 4;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header.jpg);   
+}
 
+logo {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    background-image: url(../img/logga.png);
+}
+
+.hem {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    background-color: rgb(218, 236, 245);
+    margin: 0;
+}
+
+.priser {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: rgb(218, 236, 245);
+    margin: 0;
+}
+
+.forum {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background-color: rgb(218, 236, 245);
+    margin: 0;
+}
+
+.konto {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    background-color: rgb(218, 236, 245);
+    margin: 0;
 }
