@@ -1,13 +1,12 @@
 .container {
     width: 375px;
     height: 667px;
-    background-color: white;
+    background-color: rgb(214, 214, 214);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    grid-row-gap: 5px;
-    grid-column-gap: 5px; 
-    
+    grid-row-gap: 3px;
+    grid-column-gap: 3px; 
 }
 
 body {
@@ -27,7 +26,7 @@ logo {
 }
 
 menu {
-    background-color: rgb(150, 202, 230);
+    background-color: white;
     margin: 0;
     display: grid;
     justify-content: center;
@@ -38,14 +37,14 @@ menu {
 
 a {
     margin: 0;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 
 a:visited{
-    color: rgb(243, 238, 238);
+    color: rgb(91, 91, 91);
 }
 
 .hem {
@@ -68,46 +67,15 @@ a:visited{
     grid-row: 4 / 5;
 }
 
-footer {
-    grid-column: 1 / 5;
-    grid-row: 15 / 17;
-    background-color: rgb(150, 202, 230);
-}
 
-h7 {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    display: grid;
-    margin-bottom: 4px;
-    margin-top: 3px;
-}
-
-h {
-    margin: 0;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-}
-
-footer p {
-    color: white;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    font-size: 13px;
-    margin: 0;
-    font-weight: bold;
-}
 
 article {
     grid-column: 1 / 5;
     grid-row: 5 / 15;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(20, 1fr);
-    background-color: rgb(150, 202, 230);
+    grid-template-rows: repeat(20, 1fr); 
+    background-color: white;
 }
 
 .stad {
@@ -135,5 +103,31 @@ button {
     grid-row: 18 / 20;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 214, 214);
+}
+
+h7 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    display: grid;
+    margin-bottom: 4px;
+    margin-top: 3px;
+}
+
+footer {
+    grid-column: 1 / 5;
+    grid-row: 15 / 17;
     background-color: white;
+}
+
+footer p {
+    color: black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 13px;
+    margin: 0;
+    font-weight: bold;
 }

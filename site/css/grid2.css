@@ -1,13 +1,12 @@
 .container {
     width: 375px;
     height: 667px;
-    background-color: white;
+    background-color: rgb(214, 214, 214);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    grid-row-gap: 5px;
-    grid-column-gap: 5px; 
-    
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;   
 }
 
 body {
@@ -27,7 +26,7 @@ logo {
 }
 
 menu {
-    background-color: rgb(150, 202, 230);
+    background-color: white;
     margin: 0;
     display: grid;
     justify-content: center;
@@ -38,14 +37,14 @@ menu {
 
 a {
     margin: 0;
-    color: white;
+    color: black;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
 }
 
 a:visited{
-    color: rgb(243, 238, 238);
+    color: rgb(91, 91, 91);
 }
 
 .hem {
@@ -71,27 +70,80 @@ a:visited{
 footer {
     grid-column: 1 / 5;
     grid-row: 15 / 17;
-    background-color: rgb(150, 202, 230);
+    background-color: white;
 }
 
 h7 {
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
     display: grid;
     margin-bottom: 4px;
     margin-top: 3px;
 }
 
-h {
-    margin: 0;
-    color: white;
-    font-weight: bold;
-    text-align: center;
+.gym {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    background-color: white;
+}
+
+.gruppträning {
+    grid-column: 1 / 3;
+    grid-row: 7 / 9;
+    background-color: white;
+}
+
+.prova {
+    grid-column: 1 / 3;
+    grid-row: 9 / 11;
+    background-color: white;
+}
+
+.pt {
+    grid-column: 1 / 3;
+    grid-row: 11 / 13;
+    background-color: white;
+}
+
+.kostråd {
+    grid-column: 1 / 3;
+    grid-row: 13 / 15;
+    background-color: white;
+}
+
+.gym_bild {
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
+    background-color: white;
+}
+
+.gruppträning_bild { 
+    grid-column: 3 / 5;
+    grid-row: 7 / 9;
+    background-color: white;
+}
+
+.prova_bild {
+    grid-column: 3 / 5;
+    grid-row: 9 / 11;
+    background-color: white;
+}
+
+.pt_bild {
+    grid-column: 3 / 5;
+    grid-row: 11 / 13;
+    background-color: white;
+}
+
+.kostråd_bild {
+    grid-column: 3 / 5;
+    grid-row: 13 / 15;
+    background-color: white;
 }
 
 footer p {
-    color: white;
+    color: black;
     display: grid;
     justify-content: center;
     align-items: center;
