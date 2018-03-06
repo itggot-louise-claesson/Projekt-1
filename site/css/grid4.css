@@ -119,6 +119,33 @@ h7 {
     margin-top: 3px;
 }
 
+h {
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+article {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+button {
+    grid-column: 1 / 5;
+    grid-row: 14 / 15;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 214, 214);
+}
+
 footer p {
     color: black;
     display: grid;

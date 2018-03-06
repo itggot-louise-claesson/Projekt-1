@@ -69,8 +69,14 @@ a:visited{
 }
 
 bild {
-    grid-column: 1 / 3;
+    grid-column: 3 / 5;
     grid-row: 5 / 8;
+    background-image: url(../img/vikter.png);
+}
+
+text {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
     background-color: white;
 }
 
@@ -99,15 +105,28 @@ reklam {
 }
 
 registrera {
-    grid-column: 3 / 5;
+    grid-column: 1 / 3;
+    grid-row: 7 / 8;
+    background-color: white;  
+}
+
+button {
+    grid-column: 1 / 3;
     grid-row: 5 / 7;
-    background-color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    background-color: rgb(214, 214, 214);
+    display: grid;
 }
 
 available-cities {
     grid-column: 3 / 5;
-    grid-row: 7 / 9;
+    grid-row: 8 / 9;
     background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 cities {
@@ -146,6 +165,10 @@ cities {
 .Jönköping {
     grid-column: 3 / 5;
     grid-row: 14 / 15;
+}
+
+reklam {
+    background-image: url(../img/nike_reklam.png);
 }
 
 footer {
